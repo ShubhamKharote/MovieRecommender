@@ -1,0 +1,10 @@
+'''
+components.html("""
+    <script>
+        var stylesheets = window.parent.document.querySelectorAll('style');
+        stylesheets.forEach(style => style.remove());
+    </script>
+""", height=0)
+
+st.write("🚀 Streamlit default styles removed!")
+'''

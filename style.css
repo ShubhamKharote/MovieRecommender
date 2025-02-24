@@ -1,0 +1,116 @@
+/* Set background color */
+body {
+    background-image: url("/Assets/background.jpg")!important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*background-color: #02ce8e !important;
+    color: rgb(9, 232, 176);
+    font-family: 'Arial', sans-serif;*/
+}
+
+/* --------------- General Styles --------------- */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* --------------- Sidebar Styles --------------- */
+section[data-testid="stSidebar"] {
+    background-color: #84ffb3;  /* Light greenish background*/
+    background-image: url(/Assets/background.jpg) center !important;
+    padding: 20px !important;
+    border-right: 2px solid #d3d3d3;
+}
+
+section[data-testid="stSidebar"] h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+section[data-testid="stSidebar"] label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* --------------- Title and Header --------------- */
+h1 {
+    font-size: 30px !important;
+    color: #222;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2, h3 {
+    font-size: 22px;
+    color: #444;
+    font-weight: bold;
+}
+
+/* --------------- Text Input & Button Styles --------------- */
+input[type="text"] {
+    background-color: #f0f0f0 !important;
+    border: 1px solid #ccc !important;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100% !important;
+}
+
+button {
+    background-color: #4CAF50 !important;  /* Green color */
+    color: white !important;
+    font-size: 16px !important;
+    font-weight: bold;
+    padding: 10px 15px !important;
+    border-radius: 8px !important;
+    border: none !important;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #45a049 !important;
+}
+
+/* --------------- Recommended Movies Grid --------------- */
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.movie-card {
+    text-align: center;
+    width: 180px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 8px;
+}
+
+.movie-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* --------------- Expander for Movie Details --------------- */
+.st-expander {
+    background-color: white !important;
+    border: 1px solid #ddd !important;
+    border-radius: 10px !important;
+    padding: 15px !important;
+}
